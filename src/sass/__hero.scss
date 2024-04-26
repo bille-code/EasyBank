@@ -1,11 +1,33 @@
+.copy{
+    line-height: 1.7;
+    border: solid 1px red;
+}
+
 
 
 .hero{
-    border: 1px solid var(--Bright_Cyan);
     padding: 2em;
+    text-align: center;
+}
+
+    .title{
+        border: solid 2px red;
+    &__h1{
+    border: solid 1px blue;
+    font-size: 2.3em;
+    font-weight: 300;
+    color: var(--Dark_Blue);
+    line-height: 1.3em;
+    }
+}
+.wrapper{
+    padding: 0 1.9em;
 }
 
 .button{
     padding: 1em 2em;
-
+    border-radius: 20px;
+    background-image: linear-gradient(to right, var(--Lime_Green) 0%, var(--Bright_Cyan)100%);
+    color: var(--White);
+    font-weight: 600;
 }

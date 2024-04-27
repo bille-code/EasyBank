@@ -8,8 +8,8 @@ html {
 
 body {
   font-family: "League Spartan", sans-serif;
+  font-size: 18px;
   margin: 0px;
-  color: var(--Grayish_Blue);
 }
 
 :root {
@@ -364,7 +364,7 @@ template {
   border-radius: 20px;
   background-image: linear-gradient(to right, var(--Lime_Green) 0%, var(--Bright_Cyan) 100%);
   color: var(--White);
-  font-weight: 600;
+  font-weight: 500;
 }
 
 /*# sourceMappingURL=styles.css.map */

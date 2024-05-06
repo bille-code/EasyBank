@@ -1,5 +1,6 @@
 .hero{
     text-align: center;
+    padding-bottom: 5em;
 
     .copy{
     margin-bottom: 2.5em;
@@ -22,12 +23,22 @@
     margin: 0;
     margin-bottom: .5em;
     }
+    &__h2{
+        @extend .title__h1;
+        font-size: 1.5em;
+        border: 1px solid red;
+    }
 }
 .copy{
     line-height: 1.2;
     font-size: 1em;
     color: var(--Grayish_Blue);
 }
+
+.is_hidden{
+    display: none!important;
+}
+
 .wrapper{
     padding: 0 var(--wrapperSpace);
 }

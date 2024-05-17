@@ -350,7 +350,7 @@ template {
 }
 
 .title__h1, .title__h2 {
-  font-size: 2.7em;
+  font-size: 2.5em;
   font-weight: 400;
   color: var(--Dark_Blue);
   line-height: 1.3em;
@@ -359,7 +359,6 @@ template {
 }
 .title__h2 {
   font-size: 1.5em;
-  border: 1px solid red;
 }
 
 .copy {
@@ -386,8 +385,17 @@ template {
 
 .why {
   text-align: center;
-  background: var(--Very_Light_Gray);
+  background: var(--Light_Grayish_Blue);
   padding-top: 5em;
+}
+.why .copy {
+  margin-bottom: 4em;
+}
+.why__items {
+  border: 1px solid red;
+}
+.why img {
+  margin-bottom: 1.5em;
 }
 
 .header {

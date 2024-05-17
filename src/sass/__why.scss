@@ -1,6 +1,22 @@
 .why{
-text-align: center;
-background: var(--Very_Light_Gray);
-padding-top: 5em;
+    text-align: center;
+    background: var(--Light_Grayish_Blue);
+    padding-top: 5em;
+
+.copy{
+
+    margin-bottom: 4em;
+
+   }
+
+   &__items{
+
+       border: 1px solid red;
+
+   }
+   img{
+
+       margin-bottom: 1.5em;
+   }
 
 }

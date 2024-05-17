@@ -391,8 +391,8 @@ template {
 .why .copy {
   margin-bottom: 4em;
 }
-.why__items {
-  border: 1px solid red;
+.why__items .copy {
+  margin-bottom: 2em;
 }
 .why img {
   margin-bottom: 1.5em;

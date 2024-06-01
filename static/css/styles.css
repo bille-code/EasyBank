@@ -390,6 +390,10 @@ template {
 }
 .why .copy {
   margin-bottom: 4em;
+  font-size: 1em;
+}
+.why__items {
+  padding-bottom: 1em;
 }
 .why__items .copy {
   margin-bottom: 2em;

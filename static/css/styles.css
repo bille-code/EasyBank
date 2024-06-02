@@ -413,4 +413,19 @@ template {
   background: url(../../images/icon-hamburger.svg) no-repeat center;
 }
 
+.lastestArticles {
+  border: 1px solid red;
+}
+.lastestArticles .title__h1, .lastestArticles .title__h2 {
+  text-align: center;
+}
+.lastestArticles__item {
+  border: 1px solid green;
+}
+.lastestArticles img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
 /*# sourceMappingURL=styles.css.map */

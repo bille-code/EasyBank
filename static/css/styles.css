@@ -415,17 +415,21 @@ template {
 
 .lastestArticles {
   border: 1px solid red;
+  background: var(--Very_Light_Gray);
 }
-.lastestArticles .title__h1, .lastestArticles .title__h2 {
-  text-align: center;
+.lastestArticles__grid {
+  display: grid;
+  grid-row-gap: 2em;
 }
 .lastestArticles__item {
   border: 1px solid green;
+  border-radius: 0.5em;
+  overflow: hidden;
+  background: var(--White);
 }
 .lastestArticles img {
   width: 100%;
   object-fit: cover;
-  border-radius: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */
